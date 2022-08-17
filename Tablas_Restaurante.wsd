@@ -4,3 +4,9 @@ hide circle
 
 ' avoid problems with angled crows feet
 skinparam linetype ortho
+
+entity "business_category" as e_business_category {
+  *business_category_id : number <<generated>>
+  --
+  *business_category_name : text
+}
