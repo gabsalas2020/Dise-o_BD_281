@@ -4,3 +4,6 @@ hide circle
 
 ' avoid problems with angled crows feet
 skinparam linetype ortho
+entity "usuario" as usuario {
+ 
+}
